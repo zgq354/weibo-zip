@@ -81,7 +81,7 @@ export class WeiboUnpacker {
     }
 
     // retweeted
-    status.retweeted_status && this.processWeiboStatus(status.retweeted_status);
+    status.retweeted_status && await this.processWeiboStatus(status.retweeted_status);
   }
 
   revoke() {

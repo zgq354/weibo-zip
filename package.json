@@ -1,8 +1,7 @@
 {
-  "name": "read-weibo",
+  "name": "weibo-zip-viewer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "parcel serve src/index.html",
     "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
@@ -16,14 +15,20 @@
     "@types/react-dom": "^16.9.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "cross-env": "^7.0.0",
+    "node-sass": "^4.13.1",
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "@types/classnames": "^2.2.9",
     "@types/jszip": "^3.1.7",
+    "classnames": "^2.2.6",
     "jszip": "^3.2.2",
     "normalize.css": "^8.0.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-dropzone": "^10.2.1",
+    "react-player": "^1.15.2"
   }
 }

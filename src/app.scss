@@ -1,0 +1,47 @@
+
+.container {
+  margin: 0 auto;
+  padding: 30px 20px;
+  max-width: 700px;
+}
+
+.app {
+  .site-tt {
+    font-size: 24px;
+    text-align: center;
+  }
+  .file-area {
+    margin-top: 25px;
+  }
+  .err-msg {
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff1f0;
+    border: 1px solid #ffa39e;
+    border-radius: 4px;
+  }
+}
+
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  border-style: dashed;
+  font-size: 15px;
+  background-color: #fafafa;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+  user-select: none;
+
+  &:focus {
+    border-color: #2196f3;
+  }
+}
