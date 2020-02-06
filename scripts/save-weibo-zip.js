@@ -358,7 +358,7 @@ async function getWeiboZip() {
     location.href = `https://m.weibo.cn/status/${location.pathname.match(/^\/\d{10}\/([a-zA-Z0-9]+)$/)[1]}`;
     return;
   }
-  if (!$render_data.status || /^\/detail\/(\d+)/.test(location.pathname) && localtion.pathname.match(/^\/detail\/(\d+)/)[1] !== $render_data.status.id) {
+  if (!$render_data.status || /^\/detail\/(\d+)/.test(location.pathname) && location.pathname.match(/^\/detail\/(\d+)/)[1] !== $render_data.status.id) {
     location.reload();
     return;
   }
